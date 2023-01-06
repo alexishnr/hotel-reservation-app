@@ -1,8 +1,8 @@
-Objectif : Réaliser une application WEB
+#Objectif : Réaliser une application WEB
 
  
 
-Contexte
+#Contexte
 
    Une société dispose de plusieurs hotels et chaque hotels dispose de 4 types de chambres.
 
@@ -12,24 +12,24 @@ Contexte
 
  
 
-Stack
+#Stack
 
    React, Redux, typescript, styled component
 
  
 
-Règles métiers
+#Règles métiers
 
-Un internaute peut commander autant de nuit qu'il veut en même temps (pas zéro nuit)
+- Un internaute peut commander autant de nuit qu'il veut en même temps (pas zéro nuit)
 
-Un internaute peut commander une seule ou plusieurs chambres dans un seul ou plusieurs hôtels
+- Un internaute peut commander une seule ou plusieurs chambres dans un seul ou plusieurs hôtels
 
-Un panier affiche toutes les commandes sélectionnées et le total des coûts
+- Un panier affiche toutes les commandes sélectionnées et le total des coûts
 
-Un email, nom, prénom, et adresse sont demandés afin de passer commande (email, nom prénom et adresse sont obligatoires)
+- Un email, nom, prénom, et adresse sont demandés afin de passer commande (email, nom prénom et adresse sont obligatoires)
 
-Le nom, prénom et adresse doivent être envoyés en majuscule.
+- Le nom, prénom et adresse doivent être envoyés en majuscule.
 
-Un message de confirmation est affiché à la fin du parcours.
+- Un message de confirmation est affiché à la fin du parcours.
 
 N.B : design libre, aucune utilisation de SGBD n'est permise
