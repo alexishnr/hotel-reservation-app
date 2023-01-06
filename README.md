@@ -1,8 +1,8 @@
-##Objectif : Réaliser une application WEB
+# Objectif : Réaliser une application WEB
 
  
 
-#Contexte
+# Contexte
 
    Une société dispose de plusieurs hotels et chaque hotels dispose de 4 types de chambres.
 
@@ -12,13 +12,13 @@
 
  
 
-#Stack
+# Stack
 
    React, Redux, typescript, styled component
 
  
 
-#Règles métiers
+# Règles métiers
 
 - Un internaute peut commander autant de nuit qu'il veut en même temps (pas zéro nuit)
 
