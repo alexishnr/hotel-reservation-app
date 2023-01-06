@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+Objectif : Réaliser une application WEB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
 
-## Available Scripts
+Contexte
 
-In the project directory, you can run:
+   Une société dispose de plusieurs hotels et chaque hotels dispose de 4 types de chambres.
 
-### `yarn start`
+   Et au vu du contexte actuel elle souhaite vendre des nuits sur internet très rapidement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   La société souhaite un site e-commerce optimisé et qui respecte les bonnes pratiques en matière d'architecture et d'optimisation du code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ 
 
-### `yarn test`
+Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   React, Redux, typescript, styled component
 
-### `yarn build`
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Règles métiers
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Un internaute peut commander autant de nuit qu'il veut en même temps (pas zéro nuit)
+Un internaute peut commander une seule ou plusieurs chambres dans un seul ou plusieurs hôtels
+Un panier affiche toutes les commandes sélectionnées et le total des coûts
+Un email, nom, prénom, et adresse sont demandés afin de passer commande (email, nom prénom et adresse sont obligatoires)
+Le nom, prénom et adresse doivent être envoyés en majuscule.
+Un message de confirmation est affiché à la fin du parcours.
+N.B : design libre, aucune utilisation de SGBD n'est permise
